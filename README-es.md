@@ -45,7 +45,7 @@ Los usuarios deberán ser capaces de:
 
 ### Links
 
-- URL para probar el sitio: [Github pages](https://caresle.github.io/stats-preview-card-component/)
+- URL para probar el sitio: [Github pages](https://caresle.github.io/3-column-preview-card-component/)
 
 ## Mi proceso
 

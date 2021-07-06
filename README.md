@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github pages](https://your-live-site-url.com)
+- Live Site URL: [Github pages](https://caresle.github.io/3-column-preview-card-component/)
 
 ## My process
 
