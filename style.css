@@ -1,0 +1,148 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: var(--transparent-white);
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--very-light-gray);
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+  margin: 12px 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 320px);
+  grid-template-areas: "section-1" "section-2" "section-3";
+  margin: 1rem auto;
+  width: 340px;
+}
+
+button {
+  background-color: var(--very-light-gray);
+  border: 1px solid var(--very-light-gray);
+  padding: .8rem;
+  border-radius: 24px;
+  width: 140px;
+}
+
+button:hover {
+  border: 1px solid var(--very-light-gray);
+  cursor: pointer;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+div > p {
+  margin: 16px 0;
+  width: 240px;
+}
+
+#section-1 {
+  border-radius: 8px 8px 0 0;
+  grid-area: section-1;
+  background-color: var(--bright-orange);
+}
+
+#section-1 > button {
+  color: var(--bright-orange);
+}
+
+#section-1 > button:hover {
+  background-color: var(--bright-orange);
+  color: var(--very-light-gray);
+}
+
+#section-2 {
+  grid-area: section-2;
+  background-color: var(--dark-cyan);
+}
+
+#section-2 > button {
+  color: var(--dark-cyan);
+}
+
+#section-2 > button:hover {
+  background-color: var(--dark-cyan);
+  color: var(--very-light-gray);
+}
+
+#section-3 {
+  border-radius: 0 0 8px 8px;
+  grid-area: section-3;
+  background-color: var(--very-dark-cyan);
+}
+
+#section-3 > button {
+  color: var(--very-dark-cyan);
+}
+
+#section-3 > button:hover {
+  background-color: var(--very-dark-cyan);
+  color: var(--very-light-gray);
+}
+
+
+@media only screen and (min-width: 800px) {
+  .container {
+    margin: 1rem auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px;
+    grid-template-areas: "section-1 section-2 section-3";
+    width: 800px;
+    max-width: 800px;
+  }
+
+  div {
+    justify-content: space-between;
+  }
+
+  img {
+    width: 64px;
+    height: 48px;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  #section-1 {
+    border-radius: 8px 0 0 8px;
+  }
+
+  #section-3 {
+    border-radius: 0 8px 8px 0;
+  }
+}
