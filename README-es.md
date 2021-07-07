@@ -44,7 +44,7 @@ Los usuarios deberán ser capaces de:
 ![](./readme-src/desktop-custom-size.png)
 
 ### Links
-
+- URL para la solución: [Solution page](https://www.frontendmentor.io/solutions/html-css-BhYI3t-BB)
 - URL para probar el sitio: [Github pages](https://caresle.github.io/3-column-preview-card-component/)
 
 ## Mi proceso

@@ -45,7 +45,7 @@ Users should be able to:
 ![](./readme-src/desktop-custom-size.png)
 
 ### Links
-
+- Solution URL: [Solution page](https://www.frontendmentor.io/solutions/html-css-BhYI3t-BB)
 - Live Site URL: [Github pages](https://caresle.github.io/3-column-preview-card-component/)
 
 ## My process
